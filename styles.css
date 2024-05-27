@@ -1,0 +1,131 @@
+body {
+    display: flex; 
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  #content-container {
+    background-color: #D5E1EF;
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+  }
+  
+  #qr-container {
+    background-color: white;
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 100px;
+    height: 500px;
+    border-radius: 15px;
+  }
+  
+  #qr-code-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    
+  }
+
+  #qr-code-container img {
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+  }
+  
+  #qr-text {
+    font-family: 'Outfit';
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+   }
+  
+  
+  #qr-text h2 {
+    font-size: 20px;
+    font-weight: 700;
+    
+  }
+  
+  #qr-text p {
+    color: #7D889E;
+    margin-top: -2px;
+    font-size: 14px;
+  }
+  
+  
+  /* Mobile */
+  @media screen and (max-width: 600px) {
+    #qr-code-container img {
+      height: 220px;
+      width: 200px;
+    }
+  }
+  
+  /* Tablets */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    #qr-code-container img {
+      height: 300px;
+      width: 300px;
+      
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    #qr-container {
+      height: 400px;
+      width: 200px;
+      
+    }
+  }
+  
+  /* Tablets */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    #qr-container {
+      height: 500px;
+      width: 300px;
+    }
+  }
+  
+  
+  
+
+  @media screen and (max-width: 600px) {
+    #qr-text h2 {
+      font-size: 15px;
+      width: 200px;
+      flex-wrap: wrap;
+      
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #qr-text p {
+      font-size: 13px;
+      width: 200px;
+      flex-wrap: wrap;
+      
+    }
+  }
+
+  
+  
+  
+  
+  
+  
